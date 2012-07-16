@@ -7,20 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "ChooseLotteryViewController.h"
+#import "PeoplePickerViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize navigationController = _navigationController;
+
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+//    ChooseLotteryViewController *navRootCntrl = [[ChooseLotteryViewController alloc] init];
+//    PeoplePickerViewController *navRootCntrl = [[PeoplePickerViewController alloc] init];
+//    self.viewController = [[UINavigationController alloc] initWithRootViewController:navRootCntrl];
+//    self.viewController
+//    self.window.rootViewController = self.viewController;
+//    
+//    [self.window makeKeyAndVisible];
+    
+	// Configure and show the window
+	[self.window addSubview:[self.navigationController view]];
+	[self.window makeKeyAndVisible];
+    
     return YES;
 }
 
