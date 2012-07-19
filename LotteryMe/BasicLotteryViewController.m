@@ -10,8 +10,6 @@
 
 @interface BasicLotteryViewController ()
 
-@property int nextPlayerIndex;
-
 @end
 
 @implementation BasicLotteryViewController
@@ -27,7 +25,11 @@
     if(self.player.count > self.nextPlayerIndex) {
         self.playerLabel.hidden = NO;
         self.currentPlayer = [self.player objectAtIndex:self.nextPlayerIndex];
-        [self.playerLabel display: [NSString stringWithFormat:@"%@", self.currentPlayer]];
+        if([self.playerLabel isMemberOfClass:[ZoomOutLabel class]]) {
+            [(ZoomOutLabel*)self.playerLabel display: self.currentPlayer];
+        } else {
+            self.playerLabel.text = self.currentPlayer;
+        }
         self.nextPlayerIndex++;
         
         return YES;

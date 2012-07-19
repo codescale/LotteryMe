@@ -16,7 +16,8 @@
 
 @property (retain, nonatomic) NSString *currentPlayer;
 @property (retain, nonatomic) NSArray *player;
-@property (weak, nonatomic) IBOutlet ZoomOutLabel *playerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *playerLabel;
+@property int nextPlayerIndex;
 
 - (int) maxAmoutOfPlayer;
 

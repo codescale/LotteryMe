@@ -40,7 +40,7 @@
     [super viewDidLoad];
     
     [self setBallToBeginning];
-    self.playerLabel.delegate = self;
+    ((ZoomOutLabel*)self.playerLabel).delegate = self;
     [self nextPlayer];
 }
 

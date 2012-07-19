@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BasicLotteryViewController.h"
 
-@interface SlotMachineViewController : UIViewController
+@interface SlotMachineViewController : BasicLotteryViewController
 
-- (IBAction)dragedMetalButton:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *metalButton;
+
+- (IBAction)dragedMetalButton:(UIButton *)sender withEvent:(UIEvent *)event;
+- (IBAction)dragExitMetalButton:(UIButton *)sender withEvent:(UIEvent *)event;
+- (IBAction)tabStart;
+- (IBAction)tabStop;
 
 @end
