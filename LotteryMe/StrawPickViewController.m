@@ -32,7 +32,7 @@
     self.navigationItem.title = @"Drawing straws";
 
     // get a random number to define a random shorter straw
-    int shortStrawIndex = rand() % self.player.count;
+    int shortStrawIndex = arc4random() % self.player.count;
     
 #define STRAW_WIDTH 59
     int totalWidth = self.player.count * STRAW_WIDTH;
