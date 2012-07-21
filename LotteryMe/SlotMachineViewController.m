@@ -138,14 +138,6 @@
     // set the location to the top
     self.playerLabel.center = CGPointMake(NAME_LABEL_X, NAME_LABEL_TOP_Y);
     
-    if((float)self.animationDuration >= ANIMATION_DURATION_END) {
-        // end rotation animation
-        self.isSlotMachineRunning = NO;
-        // and let the last name bounce a bit
-        [self bounceNameLabel:0];
-        return;
-    }
-    
     // set the next player
     if(![self nextPlayer]) {
         // keep to repeat all the player
@@ -153,20 +145,26 @@
         [self nextPlayer];
     }
     
-    // needs to stop with a name in the middle of the slot machine display
-    
-    [UIView beginAnimations:@"rotate name label" context:nil];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-    [UIView setAnimationDuration:self.animationDuration];
-    [UIView setAnimationDelegate:self];
-    [UIView setAnimationDidStopSelector:@selector(nameLabelReachedBottom:finished:context:)];
-    
-    self.playerLabel.center = CGPointMake(NAME_LABEL_X, NAME_LABEL_BOTTOM_Y);
-    
-    [UIView commitAnimations];
-    
-    if(self.isSlotMachineStopping) {
-        self.animationDuration += 0.1f;
+    if((float)self.animationDuration < ANIMATION_DURATION_END) {
+        // let the name rotate
+        [UIView beginAnimations:@"rotate name label" context:nil];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+        [UIView setAnimationDuration:self.animationDuration];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDidStopSelector:@selector(nameLabelReachedBottom:finished:context:)];
+        
+        self.playerLabel.center = CGPointMake(NAME_LABEL_X, NAME_LABEL_BOTTOM_Y);
+        
+        [UIView commitAnimations];
+        
+        if(self.isSlotMachineStopping) {
+            self.animationDuration += 0.1f;
+        }
+    } else {
+        // end rotation animation
+        self.isSlotMachineRunning = NO;
+        // and let the last name bounce a bit
+        [self bounceNameLabel:0];
     }
 }
 - (void)nameLabelReachedBottom:(NSString *)animationID finished:(BOOL)finished context:(void *)context {
@@ -176,7 +174,8 @@
 static int bouncePoints[] = {+20,-10,+5,0};
 - (void)bounceNameLabel:(int)index {
     
-    if(index > sizeof(bouncePoints)/sizeof(int)) {
+    if(index >= sizeof(bouncePoints)/sizeof(int)) {
+        // bouncing is finished
         return;
     }
     

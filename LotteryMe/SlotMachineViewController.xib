@@ -64,7 +64,9 @@
 						<float key="IBUIMinimumFontSize">16</float>
 						<int key="IBUITextAlignment">1</int>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<int key="type">2</int>
+							<string key="name">Helvetica-Bold</string>
+							<string key="family">Helvetica</string>
+							<int key="traits">2</int>
 							<double key="pointSize">32</double>
 						</object>
 						<object class="NSFont" key="IBUIFont">
@@ -92,7 +94,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{83, 348}, {154, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -276,9 +277,9 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="489631993"/>
 							<reference ref="1006884382"/>
-							<reference ref="124275540"/>
 							<reference ref="7420493"/>
 							<reference ref="65979210"/>
+							<reference ref="124275540"/>
 							<reference ref="663873953"/>
 						</array>
 						<reference key="parent" ref="0"/>
