@@ -44,6 +44,7 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 372}</string>
 						<reference key="NSSuperview" ref="300844596"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="426888136"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="130395329">
 							<int key="NSColorSpace">3</int>
@@ -70,6 +71,7 @@
 						<int key="NSvFlags">266</int>
 						<string key="NSFrame">{{0, 372}, {320, 44}}</string>
 						<reference key="NSSuperview" ref="300844596"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="284449122"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -104,6 +106,7 @@
 								<int key="NSvFlags">274</int>
 								<string key="NSFrame">{{1, 32}, {220, 116}}</string>
 								<reference key="NSSuperview" ref="284449122"/>
+								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -115,58 +118,57 @@
 							<object class="IBUIButton" id="840523211">
 								<reference key="NSNextResponder" ref="284449122"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{-18, 53}, {258, 19}}</string>
+								<string key="NSFrame">{{-20, 55}, {258, 19}}</string>
 								<reference key="NSSuperview" ref="284449122"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="574200335"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
+								<bool key="IBUIShowsTouchWhenHighlighted">YES</bool>
 								<string key="IBUINormalTitle">Add from Addressbook</string>
 								<reference key="IBUIHighlightedTitleColor" ref="130395329"/>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC42MDc4NDMxMzczIDAuNjA3ODQzMTM3MyAwLjYwNzg0MzEzNzMAA</bytes>
-								</object>
+								<reference key="IBUINormalTitleColor" ref="130395329"/>
 								<object class="NSColor" key="IBUINormalTitleShadowColor" id="1019664066">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MC41AA</bytes>
 								</object>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="210351918">
+								<object class="IBUIFontDescription" key="IBUIFontDescription" id="418145670">
 									<int key="type">2</int>
-									<double key="pointSize">15</double>
+									<double key="pointSize">12</double>
 								</object>
-								<object class="NSFont" key="IBUIFont" id="340418752">
+								<object class="NSFont" key="IBUIFont" id="422027680">
 									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">15</double>
+									<double key="NSSize">12</double>
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
 							<object class="IBUIButton" id="574200335">
 								<reference key="NSNextResponder" ref="284449122"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{-18, 85}, {258, 37}}</string>
+								<string key="NSFrame">{{-20, 85}, {258, 37}}</string>
 								<reference key="NSSuperview" ref="284449122"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="246350617"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
+								<bool key="IBUIShowsTouchWhenHighlighted">YES</bool>
 								<string key="IBUINormalTitle">Add by yourself</string>
 								<reference key="IBUIHighlightedTitleColor" ref="130395329"/>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC42MDc4NDMxMzczIDAuNjA3ODQzMTM3MyAwLjYwNzg0MzEzNzMAA</bytes>
-								</object>
+								<reference key="IBUINormalTitleColor" ref="130395329"/>
 								<reference key="IBUINormalTitleShadowColor" ref="1019664066"/>
-								<reference key="IBUIFontDescription" ref="210351918"/>
-								<reference key="IBUIFont" ref="340418752"/>
+								<reference key="IBUIFontDescription" ref="418145670"/>
+								<reference key="IBUIFont" ref="422027680"/>
 							</object>
 						</array>
-						<string key="NSFrame">{{5, 230}, {222, 151}}</string>
+						<string key="NSFrame">{{5, 233}, {222, 151}}</string>
 						<reference key="NSSuperview" ref="300844596"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="840523211"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -182,6 +184,7 @@
 				</array>
 				<string key="NSFrame">{{0, 64}, {320, 416}}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="873029372"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
@@ -407,7 +410,61 @@
 			<nil key="sourceID"/>
 			<int key="maxID">69</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">PeoplePickerViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="addPlayer:">UIBarButtonItem</string>
+						<string key="addPlayerFromAddrsbook:">UIButton</string>
+						<string key="addPlayerManual:">UIButton</string>
+						<string key="play:">UIBarButtonItem</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="addPlayer:">
+							<string key="name">addPlayer:</string>
+							<string key="candidateClassName">UIBarButtonItem</string>
+						</object>
+						<object class="IBActionInfo" key="addPlayerFromAddrsbook:">
+							<string key="name">addPlayerFromAddrsbook:</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBActionInfo" key="addPlayerManual:">
+							<string key="name">addPlayerManual:</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBActionInfo" key="play:">
+							<string key="name">play:</string>
+							<string key="candidateClassName">UIBarButtonItem</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="playBtn">UIBarButtonItem</string>
+						<string key="popoverView">UIView</string>
+						<string key="tableView">UITableView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="playBtn">
+							<string key="name">playBtn</string>
+							<string key="candidateClassName">UIBarButtonItem</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="popoverView">
+							<string key="name">popoverView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="tableView">
+							<string key="name">tableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/PeoplePickerViewController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">

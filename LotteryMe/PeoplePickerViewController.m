@@ -125,7 +125,7 @@
         
         // This cell gets deselected
         selectedCell.accessoryType = UITableViewCellAccessoryNone;
-        [self.selectedPeople removeObject:indexPath];
+        [self.selectedPeople removeObject:selectedCell.textLabel.text];
     } else {
         
         // This cell get selected
@@ -139,7 +139,7 @@
             
             // mark this cell checked
             selectedCell.accessoryType = UITableViewCellAccessoryCheckmark;
-            [self.selectedPeople addObject:indexPath];
+            [self.selectedPeople addObject:selectedCell.textLabel.text];
         }
     }
 }
@@ -154,12 +154,7 @@
         return;
     }
     
-    NSMutableSet *player = [[NSMutableSet alloc] init];
-    for (NSIndexPath *index in self.selectedPeople) {
-        [player addObject:[self.tableView cellForRowAtIndexPath:index].textLabel.text];
-    }
-    
-    [self.nextController setPlayer:player.allObjects];
+    [self.nextController setPlayer:self.selectedPeople.allObjects];
     [self.navigationController pushViewController:self.nextController animated:YES];
 }
 
@@ -189,8 +184,10 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{ 
     if(buttonIndex == 1) {
         NSString *playerName = [[alertView textFieldAtIndex:0] text];
-        [PlayerList.instance addPlayer:playerName];
-        [self.tableView reloadData];
+        if([playerName length] > 0) {
+            [PlayerList.instance addPlayer:playerName];
+            [self.tableView reloadData];
+        }
     }
     
     [self displayPopoverView:NO];
