@@ -49,8 +49,9 @@
         gameControllerClass = [GetCloseViewController class];
     } else if([sender.titleLabel.text isEqualToString:@"SlotMachine"]) {
         gameControllerClass = [SlotMachineViewController class];
-    }
-    
+    } else if([sender.titleLabel.text isEqualToString:@"PickACard"]) {
+        gameControllerClass = [PickACardViewController class];
+    }    
     PeoplePickerViewController *picker = [[PeoplePickerViewController alloc] initWithNextController:[[gameControllerClass alloc] init]];
     [self.navigationController pushViewController:picker animated:true];
 }

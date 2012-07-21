@@ -11,6 +11,7 @@
 #import "StrawPickViewController.h"
 #import "GetCloseViewController.h"
 #import "SlotMachineViewController.h"
+#import "PickACardViewController.h"
 
 @interface ChooseLotteryViewController : UIViewController
 
