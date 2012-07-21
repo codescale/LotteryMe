@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31165E815B58BDB00CBBD68 /* SlotmachineIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D31165E715B58BDB00CBBD68 /* SlotmachineIcon.png */; };
+		D34AF1DD15A056F700CBE8D8 /* short-straw.png in Resources */ = {isa = PBXBuildFile; fileRef = D34AF1DC15A056F700CBE8D8 /* short-straw.png */; };
+		D34AF1E215A061E900CBE8D8 /* StrawIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D34AF1E115A061E900CBE8D8 /* StrawIcon.png */; };
+		D34AF1E615A0623100CBE8D8 /* GetCloseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34AF1E415A0623100CBE8D8 /* GetCloseViewController.m */; };
+		D34AF1E715A0623100CBE8D8 /* GetCloseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34AF1E515A0623100CBE8D8 /* GetCloseViewController.xib */; };
+		D351633215B018BC00F51C3C /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = D351633115B018BC00F51C3C /* popup.png */; };
+		D351633515B0881D00F51C3C /* GetCloseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D351633415B0881D00F51C3C /* GetCloseIcon.png */; };
+		D351633A15B0A25A00F51C3C /* PlayerList.m in Sources */ = {isa = PBXBuildFile; fileRef = D351633915B0A25900F51C3C /* PlayerList.m */; };
+		D351633C15B0B38600F51C3C /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D351633B15B0B38600F51C3C /* SplashScreen.png */; };
+		D351633E15B0B46000F51C3C /* SplashScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D351633D15B0B46000F51C3C /* SplashScreen@2x.png */; };
+		D351634015B0C84000F51C3C /* default_background.png in Resources */ = {isa = PBXBuildFile; fileRef = D351633F15B0C84000F51C3C /* default_background.png */; };
+		D37CFD1715B45A8600D2B9CA /* SlotMachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37CFD1515B45A8600D2B9CA /* SlotMachineViewController.m */; };
+		D37CFD1815B45A8600D2B9CA /* SlotMachineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37CFD1615B45A8600D2B9CA /* SlotMachineViewController.xib */; };
+		D37CFD2A15B460EF00D2B9CA /* SlotMachine_background.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CFD2915B460EF00D2B9CA /* SlotMachine_background.png */; };
+		D37CFD2C15B461C900D2B9CA /* metal_button_round.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CFD2B15B461C900D2B9CA /* metal_button_round.png */; };
+		D37CFD2E15B4634000D2B9CA /* SlotMachine_role_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CFD2D15B4634000D2B9CA /* SlotMachine_role_highlight.png */; };
+		D398F4CF15B890B900330E48 /* StrawIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D398F4CE15B890B900330E48 /* StrawIcon2.png */; };
+		D398F4D315B8940200330E48 /* GetCloseIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D398F4D115B8940200330E48 /* GetCloseIcon2.png */; };
+		D398F4D415B8940200330E48 /* SlotmachineIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D398F4D215B8940200330E48 /* SlotmachineIcon2.png */; };
+		D39E122515A38691001F7F8D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39E122415A38691001F7F8D /* MainWindow.xib */; };
+		D3AB2DF3159B501F00AB0189 /* StrawPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB2DF1159B501F00AB0189 /* StrawPickViewController.m */; };
+		D3AB2DF4159B501F00AB0189 /* StrawPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AB2DF2159B501F00AB0189 /* StrawPickViewController.xib */; };
+		D3AB2DF7159B589800AB0189 /* BasicLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB2DF6159B589800AB0189 /* BasicLotteryViewController.m */; };
+		D3AB2DF9159C6EA600AB0189 /* strawPick_Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3AB2DF8159C6EA500AB0189 /* strawPick_Background.jpg */; };
+		D3AB2DFB159C766200AB0189 /* straw.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AB2DFA159C766100AB0189 /* straw.png */; };
+		D3AB2DFD159C8E6000AB0189 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB2DFC159C8E6000AB0189 /* QuartzCore.framework */; };
 		D3BD21EC1599C1D700F25032 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BD21EB1599C1D700F25032 /* UIKit.framework */; };
 		D3BD21EE1599C1D700F25032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BD21ED1599C1D700F25032 /* Foundation.framework */; };
 		D3BD21F01599C1D700F25032 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BD21EF1599C1D700F25032 /* CoreGraphics.framework */; };
@@ -21,6 +47,28 @@
 		D3BD220C1599C1D700F25032 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BD21F11599C1D700F25032 /* CoreData.framework */; };
 		D3BD22141599C1D700F25032 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3BD22121599C1D700F25032 /* InfoPlist.strings */; };
 		D3BD22171599C1D700F25032 /* LotteryMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BD22161599C1D700F25032 /* LotteryMeTests.m */; };
+		D3D479C515B97D5100C5D25F /* PickACardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D479C315B97D5100C5D25F /* PickACardViewController.m */; };
+		D3D479C615B97D5100C5D25F /* PickACardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D479C415B97D5100C5D25F /* PickACardViewController.xib */; };
+		D3D479D215B9808200C5D25F /* PickACard_card_ass_club.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479C715B9808200C5D25F /* PickACard_card_ass_club.png */; };
+		D3D479D315B9808200C5D25F /* PickACard_card_ass_diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479C815B9808200C5D25F /* PickACard_card_ass_diamond.png */; };
+		D3D479D415B9808200C5D25F /* PickACard_card_ass_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479C915B9808200C5D25F /* PickACard_card_ass_heart.png */; };
+		D3D479D515B9808200C5D25F /* PickACard_card_ass_spade.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479CA15B9808200C5D25F /* PickACard_card_ass_spade.png */; };
+		D3D479D615B9808200C5D25F /* PickACard_card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479CB15B9808200C5D25F /* PickACard_card_back.png */; };
+		D3D479D715B9808200C5D25F /* PickACard_card_king_club.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479CC15B9808200C5D25F /* PickACard_card_king_club.png */; };
+		D3D479D815B9808200C5D25F /* PickACard_card_king_diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479CD15B9808200C5D25F /* PickACard_card_king_diamond.png */; };
+		D3D479D915B9808200C5D25F /* PickACard_card_king_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479CE15B9808200C5D25F /* PickACard_card_king_heart.png */; };
+		D3D479DA15B9808200C5D25F /* PickACard_card_king_spade.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479CF15B9808200C5D25F /* PickACard_card_king_spade.png */; };
+		D3D479DB15B9808200C5D25F /* PickACard_card_loser.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479D015B9808200C5D25F /* PickACard_card_loser.png */; };
+		D3D479DC15B9808200C5D25F /* PickACard_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D479D115B9808200C5D25F /* PickACard_icon2.png */; };
+		D3E226BD15A2CE67002EE304 /* ZoomOutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E226BC15A2CE67002EE304 /* ZoomOutLabel.m */; };
+		D3E226C215A32DCB002EE304 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E226C015A32DCB002EE304 /* ResultViewController.m */; };
+		D3E226C315A32DCB002EE304 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E226C115A32DCB002EE304 /* ResultViewController.xib */; };
+		D3E4E5EA1599FB4F003E73D4 /* ChooseLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4E5E81599FB4F003E73D4 /* ChooseLotteryViewController.m */; };
+		D3E4E5EB1599FB4F003E73D4 /* ChooseLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E4E5E91599FB4F003E73D4 /* ChooseLotteryViewController.xib */; };
+		D3E4E601159A16F9003E73D4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E4E5FF159A16F9003E73D4 /* AddressBook.framework */; };
+		D3E4E602159A16F9003E73D4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E4E600159A16F9003E73D4 /* AddressBookUI.framework */; };
+		D3E4E610159B46E3003E73D4 /* PeoplePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4E60E159B46E2003E73D4 /* PeoplePickerViewController.m */; };
+		D3E4E611159B46E3003E73D4 /* PeoplePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E4E60F159B46E2003E73D4 /* PeoplePickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +82,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D31165E715B58BDB00CBBD68 /* SlotmachineIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlotmachineIcon.png; sourceTree = "<group>"; };
+		D34AF1DC15A056F700CBE8D8 /* short-straw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "short-straw.png"; sourceTree = "<group>"; };
+		D34AF1E115A061E900CBE8D8 /* StrawIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrawIcon.png; sourceTree = "<group>"; };
+		D34AF1E315A0623100CBE8D8 /* GetCloseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCloseViewController.h; sourceTree = "<group>"; };
+		D34AF1E415A0623100CBE8D8 /* GetCloseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCloseViewController.m; sourceTree = "<group>"; };
+		D34AF1E515A0623100CBE8D8 /* GetCloseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetCloseViewController.xib; sourceTree = "<group>"; };
+		D351633115B018BC00F51C3C /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup.png; sourceTree = "<group>"; };
+		D351633415B0881D00F51C3C /* GetCloseIcon.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = GetCloseIcon.png; sourceTree = "<group>"; };
+		D351633815B0A25900F51C3C /* PlayerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerList.h; sourceTree = "<group>"; };
+		D351633915B0A25900F51C3C /* PlayerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerList.m; sourceTree = "<group>"; };
+		D351633B15B0B38600F51C3C /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SplashScreen.png; path = ../SplashScreen.png; sourceTree = "<group>"; };
+		D351633D15B0B46000F51C3C /* SplashScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SplashScreen@2x.png"; path = "../SplashScreen@2x.png"; sourceTree = "<group>"; };
+		D351633F15B0C84000F51C3C /* default_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_background.png; sourceTree = "<group>"; };
+		D37CFD1415B45A8600D2B9CA /* SlotMachineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachineViewController.h; sourceTree = "<group>"; };
+		D37CFD1515B45A8600D2B9CA /* SlotMachineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotMachineViewController.m; sourceTree = "<group>"; };
+		D37CFD1615B45A8600D2B9CA /* SlotMachineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlotMachineViewController.xib; sourceTree = "<group>"; };
+		D37CFD2915B460EF00D2B9CA /* SlotMachine_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlotMachine_background.png; sourceTree = "<group>"; };
+		D37CFD2B15B461C900D2B9CA /* metal_button_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal_button_round.png; sourceTree = "<group>"; };
+		D37CFD2D15B4634000D2B9CA /* SlotMachine_role_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlotMachine_role_highlight.png; sourceTree = "<group>"; };
+		D398F4CE15B890B900330E48 /* StrawIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrawIcon2.png; sourceTree = "<group>"; };
+		D398F4D115B8940200330E48 /* GetCloseIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GetCloseIcon2.png; sourceTree = "<group>"; };
+		D398F4D215B8940200330E48 /* SlotmachineIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlotmachineIcon2.png; sourceTree = "<group>"; };
+		D39E122415A38691001F7F8D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D3AB2DF0159B501F00AB0189 /* StrawPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrawPickViewController.h; sourceTree = "<group>"; };
+		D3AB2DF1159B501F00AB0189 /* StrawPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrawPickViewController.m; sourceTree = "<group>"; };
+		D3AB2DF2159B501F00AB0189 /* StrawPickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrawPickViewController.xib; sourceTree = "<group>"; };
+		D3AB2DF5159B589800AB0189 /* BasicLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLotteryViewController.h; sourceTree = "<group>"; };
+		D3AB2DF6159B589800AB0189 /* BasicLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicLotteryViewController.m; sourceTree = "<group>"; };
+		D3AB2DF8159C6EA500AB0189 /* strawPick_Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strawPick_Background.jpg; sourceTree = "<group>"; };
+		D3AB2DFA159C766100AB0189 /* straw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = straw.png; sourceTree = "<group>"; };
+		D3AB2DFC159C8E6000AB0189 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D3BD21E71599C1D700F25032 /* LotteryMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BD21EB1599C1D700F25032 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3BD21ED1599C1D700F25032 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +131,33 @@
 		D3BD22131599C1D700F25032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3BD22151599C1D700F25032 /* LotteryMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryMeTests.h; sourceTree = "<group>"; };
 		D3BD22161599C1D700F25032 /* LotteryMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryMeTests.m; sourceTree = "<group>"; };
+		D3D479C215B97D5100C5D25F /* PickACardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickACardViewController.h; sourceTree = "<group>"; };
+		D3D479C315B97D5100C5D25F /* PickACardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickACardViewController.m; sourceTree = "<group>"; };
+		D3D479C415B97D5100C5D25F /* PickACardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickACardViewController.xib; sourceTree = "<group>"; };
+		D3D479C715B9808200C5D25F /* PickACard_card_ass_club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_ass_club.png; sourceTree = "<group>"; };
+		D3D479C815B9808200C5D25F /* PickACard_card_ass_diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_ass_diamond.png; sourceTree = "<group>"; };
+		D3D479C915B9808200C5D25F /* PickACard_card_ass_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_ass_heart.png; sourceTree = "<group>"; };
+		D3D479CA15B9808200C5D25F /* PickACard_card_ass_spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_ass_spade.png; sourceTree = "<group>"; };
+		D3D479CB15B9808200C5D25F /* PickACard_card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_back.png; sourceTree = "<group>"; };
+		D3D479CC15B9808200C5D25F /* PickACard_card_king_club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_king_club.png; sourceTree = "<group>"; };
+		D3D479CD15B9808200C5D25F /* PickACard_card_king_diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_king_diamond.png; sourceTree = "<group>"; };
+		D3D479CE15B9808200C5D25F /* PickACard_card_king_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_king_heart.png; sourceTree = "<group>"; };
+		D3D479CF15B9808200C5D25F /* PickACard_card_king_spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_king_spade.png; sourceTree = "<group>"; };
+		D3D479D015B9808200C5D25F /* PickACard_card_loser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_card_loser.png; sourceTree = "<group>"; };
+		D3D479D115B9808200C5D25F /* PickACard_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PickACard_icon2.png; sourceTree = "<group>"; };
+		D3E226BB15A2CE67002EE304 /* ZoomOutLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomOutLabel.h; sourceTree = "<group>"; };
+		D3E226BC15A2CE67002EE304 /* ZoomOutLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomOutLabel.m; sourceTree = "<group>"; };
+		D3E226BF15A32DCA002EE304 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		D3E226C015A32DCB002EE304 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		D3E226C115A32DCB002EE304 /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		D3E4E5E71599FB4F003E73D4 /* ChooseLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLotteryViewController.h; sourceTree = "<group>"; };
+		D3E4E5E81599FB4F003E73D4 /* ChooseLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLotteryViewController.m; sourceTree = "<group>"; };
+		D3E4E5E91599FB4F003E73D4 /* ChooseLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseLotteryViewController.xib; sourceTree = "<group>"; };
+		D3E4E5FF159A16F9003E73D4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		D3E4E600159A16F9003E73D4 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		D3E4E60D159B46E1003E73D4 /* PeoplePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeoplePickerViewController.h; sourceTree = "<group>"; };
+		D3E4E60E159B46E2003E73D4 /* PeoplePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeoplePickerViewController.m; sourceTree = "<group>"; };
+		D3E4E60F159B46E2003E73D4 /* PeoplePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeoplePickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +165,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AB2DFD159C8E6000AB0189 /* QuartzCore.framework in Frameworks */,
+				D3E4E601159A16F9003E73D4 /* AddressBook.framework in Frameworks */,
+				D3E4E602159A16F9003E73D4 /* AddressBookUI.framework in Frameworks */,
 				D3BD21EC1599C1D700F25032 /* UIKit.framework in Frameworks */,
 				D3BD21EE1599C1D700F25032 /* Foundation.framework in Frameworks */,
 				D3BD21F01599C1D700F25032 /* CoreGraphics.framework in Frameworks */,
@@ -80,6 +189,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D37CFD1A15B45A9E00D2B9CA /* ResultView */ = {
+			isa = PBXGroup;
+			children = (
+				D3E226BF15A32DCA002EE304 /* ResultViewController.h */,
+				D3E226C015A32DCB002EE304 /* ResultViewController.m */,
+				D3E226C115A32DCB002EE304 /* ResultViewController.xib */,
+			);
+			name = ResultView;
+			sourceTree = "<group>";
+		};
+		D37CFD1B15B45AC100D2B9CA /* GetCloseView */ = {
+			isa = PBXGroup;
+			children = (
+				D37CFD1A15B45A9E00D2B9CA /* ResultView */,
+				D34AF1E315A0623100CBE8D8 /* GetCloseViewController.h */,
+				D34AF1E415A0623100CBE8D8 /* GetCloseViewController.m */,
+				D34AF1E515A0623100CBE8D8 /* GetCloseViewController.xib */,
+			);
+			name = GetCloseView;
+			sourceTree = "<group>";
+		};
+		D37CFD1C15B45ADD00D2B9CA /* StrawPickView */ = {
+			isa = PBXGroup;
+			children = (
+				D3AB2DF0159B501F00AB0189 /* StrawPickViewController.h */,
+				D3AB2DF1159B501F00AB0189 /* StrawPickViewController.m */,
+				D3AB2DF2159B501F00AB0189 /* StrawPickViewController.xib */,
+			);
+			name = StrawPickView;
+			sourceTree = "<group>";
+		};
+		D37CFD1D15B45AF300D2B9CA /* PeoplePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4E60D159B46E1003E73D4 /* PeoplePickerViewController.h */,
+				D3E4E60E159B46E2003E73D4 /* PeoplePickerViewController.m */,
+				D3E4E60F159B46E2003E73D4 /* PeoplePickerViewController.xib */,
+			);
+			name = PeoplePickerView;
+			sourceTree = "<group>";
+		};
+		D37CFD1E15B45B0800D2B9CA /* ChooseLotteryView */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4E5E71599FB4F003E73D4 /* ChooseLotteryViewController.h */,
+				D3E4E5E81599FB4F003E73D4 /* ChooseLotteryViewController.m */,
+				D3E4E5E91599FB4F003E73D4 /* ChooseLotteryViewController.xib */,
+			);
+			name = ChooseLotteryView;
+			sourceTree = "<group>";
+		};
+		D37CFD1F15B45B1700D2B9CA /* SlotMachineView */ = {
+			isa = PBXGroup;
+			children = (
+				D37CFD1415B45A8600D2B9CA /* SlotMachineViewController.h */,
+				D37CFD1515B45A8600D2B9CA /* SlotMachineViewController.m */,
+				D37CFD1615B45A8600D2B9CA /* SlotMachineViewController.xib */,
+			);
+			name = SlotMachineView;
+			sourceTree = "<group>";
+		};
+		D37CFD2015B45B2400D2B9CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D3D479C715B9808200C5D25F /* PickACard_card_ass_club.png */,
+				D3D479C815B9808200C5D25F /* PickACard_card_ass_diamond.png */,
+				D3D479C915B9808200C5D25F /* PickACard_card_ass_heart.png */,
+				D3D479CA15B9808200C5D25F /* PickACard_card_ass_spade.png */,
+				D3D479CB15B9808200C5D25F /* PickACard_card_back.png */,
+				D3D479CC15B9808200C5D25F /* PickACard_card_king_club.png */,
+				D3D479CD15B9808200C5D25F /* PickACard_card_king_diamond.png */,
+				D3D479CE15B9808200C5D25F /* PickACard_card_king_heart.png */,
+				D3D479CF15B9808200C5D25F /* PickACard_card_king_spade.png */,
+				D3D479D015B9808200C5D25F /* PickACard_card_loser.png */,
+				D37CFD2D15B4634000D2B9CA /* SlotMachine_role_highlight.png */,
+				D37CFD2B15B461C900D2B9CA /* metal_button_round.png */,
+				D3AB2DF8159C6EA500AB0189 /* strawPick_Background.jpg */,
+				D37CFD2915B460EF00D2B9CA /* SlotMachine_background.png */,
+				D351633F15B0C84000F51C3C /* default_background.png */,
+				D351633115B018BC00F51C3C /* popup.png */,
+				D3AB2DFA159C766100AB0189 /* straw.png */,
+				D34AF1DC15A056F700CBE8D8 /* short-straw.png */,
+				D351633B15B0B38600F51C3C /* SplashScreen.png */,
+				D351633D15B0B46000F51C3C /* SplashScreen@2x.png */,
+				D37CFD2115B45B2B00D2B9CA /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D37CFD2115B45B2B00D2B9CA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D3D479D115B9808200C5D25F /* PickACard_icon2.png */,
+				D398F4D115B8940200330E48 /* GetCloseIcon2.png */,
+				D398F4D215B8940200330E48 /* SlotmachineIcon2.png */,
+				D31165E715B58BDB00CBBD68 /* SlotmachineIcon.png */,
+				D34AF1E115A061E900CBE8D8 /* StrawIcon.png */,
+				D398F4CE15B890B900330E48 /* StrawIcon2.png */,
+				D351633415B0881D00F51C3C /* GetCloseIcon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		D3BD21DC1599C1D700F25032 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +314,9 @@
 		D3BD21EA1599C1D700F25032 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3AB2DFC159C8E6000AB0189 /* QuartzCore.framework */,
+				D3E4E5FF159A16F9003E73D4 /* AddressBook.framework */,
+				D3E4E600159A16F9003E73D4 /* AddressBookUI.framework */,
 				D3BD21EB1599C1D700F25032 /* UIKit.framework */,
 				D3BD21ED1599C1D700F25032 /* Foundation.framework */,
 				D3BD21EF1599C1D700F25032 /* CoreGraphics.framework */,
@@ -116,7 +331,20 @@
 			children = (
 				D3BD21FC1599C1D700F25032 /* AppDelegate.h */,
 				D3BD21FD1599C1D700F25032 /* AppDelegate.m */,
+				D3E226BB15A2CE67002EE304 /* ZoomOutLabel.h */,
+				D3E226BC15A2CE67002EE304 /* ZoomOutLabel.m */,
+				D351633815B0A25900F51C3C /* PlayerList.h */,
+				D351633915B0A25900F51C3C /* PlayerList.m */,
+				D37CFD1E15B45B0800D2B9CA /* ChooseLotteryView */,
+				D3AB2DF5159B589800AB0189 /* BasicLotteryViewController.h */,
+				D3AB2DF6159B589800AB0189 /* BasicLotteryViewController.m */,
+				D37CFD1D15B45AF300D2B9CA /* PeoplePickerView */,
+				D37CFD1F15B45B1700D2B9CA /* SlotMachineView */,
+				D37CFD1C15B45ADD00D2B9CA /* StrawPickView */,
+				D3D479C015B97D2200C5D25F /* PickACard */,
+				D37CFD1B15B45AC100D2B9CA /* GetCloseView */,
 				D3BD21FF1599C1D700F25032 /* LotteryMe.xcdatamodeld */,
+				D3BD22361599CD0C00F25032 /* Resources */,
 				D3BD21F41599C1D700F25032 /* Supporting Files */,
 			);
 			path = LotteryMe;
@@ -150,6 +378,25 @@
 				D3BD22121599C1D700F25032 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3BD22361599CD0C00F25032 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D37CFD2015B45B2400D2B9CA /* Images */,
+				D39E122415A38691001F7F8D /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3D479C015B97D2200C5D25F /* PickACard */ = {
+			isa = PBXGroup;
+			children = (
+				D3D479C215B97D5100C5D25F /* PickACardViewController.h */,
+				D3D479C315B97D5100C5D25F /* PickACardViewController.m */,
+				D3D479C415B97D5100C5D25F /* PickACardViewController.xib */,
+			);
+			name = PickACard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +471,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BD21F81599C1D700F25032 /* InfoPlist.strings in Resources */,
+				D3E4E5EB1599FB4F003E73D4 /* ChooseLotteryViewController.xib in Resources */,
+				D3E4E611159B46E3003E73D4 /* PeoplePickerViewController.xib in Resources */,
+				D3AB2DF4159B501F00AB0189 /* StrawPickViewController.xib in Resources */,
+				D3AB2DF9159C6EA600AB0189 /* strawPick_Background.jpg in Resources */,
+				D3AB2DFB159C766200AB0189 /* straw.png in Resources */,
+				D34AF1DD15A056F700CBE8D8 /* short-straw.png in Resources */,
+				D34AF1E215A061E900CBE8D8 /* StrawIcon.png in Resources */,
+				D34AF1E715A0623100CBE8D8 /* GetCloseViewController.xib in Resources */,
+				D3E226C315A32DCB002EE304 /* ResultViewController.xib in Resources */,
+				D39E122515A38691001F7F8D /* MainWindow.xib in Resources */,
+				D351633215B018BC00F51C3C /* popup.png in Resources */,
+				D351633515B0881D00F51C3C /* GetCloseIcon.png in Resources */,
+				D351633C15B0B38600F51C3C /* SplashScreen.png in Resources */,
+				D351633E15B0B46000F51C3C /* SplashScreen@2x.png in Resources */,
+				D351634015B0C84000F51C3C /* default_background.png in Resources */,
+				D37CFD1815B45A8600D2B9CA /* SlotMachineViewController.xib in Resources */,
+				D37CFD2A15B460EF00D2B9CA /* SlotMachine_background.png in Resources */,
+				D37CFD2C15B461C900D2B9CA /* metal_button_round.png in Resources */,
+				D37CFD2E15B4634000D2B9CA /* SlotMachine_role_highlight.png in Resources */,
+				D31165E815B58BDB00CBBD68 /* SlotmachineIcon.png in Resources */,
+				D398F4CF15B890B900330E48 /* StrawIcon2.png in Resources */,
+				D398F4D315B8940200330E48 /* GetCloseIcon2.png in Resources */,
+				D398F4D415B8940200330E48 /* SlotmachineIcon2.png in Resources */,
+				D3D479C615B97D5100C5D25F /* PickACardViewController.xib in Resources */,
+				D3D479D215B9808200C5D25F /* PickACard_card_ass_club.png in Resources */,
+				D3D479D315B9808200C5D25F /* PickACard_card_ass_diamond.png in Resources */,
+				D3D479D415B9808200C5D25F /* PickACard_card_ass_heart.png in Resources */,
+				D3D479D515B9808200C5D25F /* PickACard_card_ass_spade.png in Resources */,
+				D3D479D615B9808200C5D25F /* PickACard_card_back.png in Resources */,
+				D3D479D715B9808200C5D25F /* PickACard_card_king_club.png in Resources */,
+				D3D479D815B9808200C5D25F /* PickACard_card_king_diamond.png in Resources */,
+				D3D479D915B9808200C5D25F /* PickACard_card_king_heart.png in Resources */,
+				D3D479DA15B9808200C5D25F /* PickACard_card_king_spade.png in Resources */,
+				D3D479DB15B9808200C5D25F /* PickACard_card_loser.png in Resources */,
+				D3D479DC15B9808200C5D25F /* PickACard_icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +543,16 @@
 				D3BD21FA1599C1D700F25032 /* main.m in Sources */,
 				D3BD21FE1599C1D700F25032 /* AppDelegate.m in Sources */,
 				D3BD22011599C1D700F25032 /* LotteryMe.xcdatamodeld in Sources */,
+				D3E4E5EA1599FB4F003E73D4 /* ChooseLotteryViewController.m in Sources */,
+				D3E4E610159B46E3003E73D4 /* PeoplePickerViewController.m in Sources */,
+				D3AB2DF3159B501F00AB0189 /* StrawPickViewController.m in Sources */,
+				D3AB2DF7159B589800AB0189 /* BasicLotteryViewController.m in Sources */,
+				D34AF1E615A0623100CBE8D8 /* GetCloseViewController.m in Sources */,
+				D3E226BD15A2CE67002EE304 /* ZoomOutLabel.m in Sources */,
+				D3E226C215A32DCB002EE304 /* ResultViewController.m in Sources */,
+				D351633A15B0A25A00F51C3C /* PlayerList.m in Sources */,
+				D37CFD1715B45A8600D2B9CA /* SlotMachineViewController.m in Sources */,
+				D3D479C515B97D5100C5D25F /* PickACardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +714,7 @@
 				D3BD221C1599C1D700F25032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3BD221D1599C1D700F25032 /* Build configuration list for PBXNativeTarget "LotteryMeTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +723,7 @@
 				D3BD221F1599C1D700F25032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
