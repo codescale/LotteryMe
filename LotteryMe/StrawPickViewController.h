@@ -12,8 +12,6 @@
 
 @interface StrawPickViewController : BasicLotteryViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *looserLabel;
-
 - (IBAction)strawPressed:(id)sender;
 
 @end

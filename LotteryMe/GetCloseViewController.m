@@ -40,8 +40,9 @@
     [super viewDidLoad];
     
     [self setBallToBeginning];
-    ((ZoomOutLabel*)self.playerLabel).delegate = self;
+    ((ZoomOutLabel*)self.pointsLabel).delegate = self;
     [self nextPlayer];
+    [self animateBallWithSpeed:self.currentBallSpeed];
 }
 
 - (void)viewDidUnload
@@ -95,6 +96,7 @@
                          [NSNumber numberWithInt:(points)], KEY_POINTS, nil];
     [self.result addObject:dic];
     
+    // next player
     if(![self nextPlayer]) {
         [self finishGame];
     }
@@ -119,7 +121,6 @@
     
     self.ballImg.frame = CGRectMake(x, -47, width, height);
 }
-
 - (void) setBallToEnd {
     int x = self.ballImg.frame.origin.x;
     int height = self.ballImg.frame.size.height;
@@ -127,7 +128,6 @@
     
     self.ballImg.frame = CGRectMake(x, 409, width, height);
 }
-
 - (void) animateBallWithSpeed:(double) speed {
     // Set ball starting point
     [self setBallToBeginning];

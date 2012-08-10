@@ -234,6 +234,7 @@
     
     CFStringRef firstName = ABRecordCopyValue(person, kABPersonFirstNameProperty);
     [PlayerList.instance addPlayer:[NSString stringWithFormat:@"%@", firstName]];
+    CFRelease(firstName);
     
     [self dismissModalViewControllerAnimated:YES];
     [self displayPopoverView:NO];

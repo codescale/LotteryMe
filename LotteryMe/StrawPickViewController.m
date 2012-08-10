@@ -13,7 +13,6 @@
 @end
 
 @implementation StrawPickViewController
-@synthesize looserLabel = _looserLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -55,9 +54,8 @@
         x += STRAW_WIDTH; // everytime we move the next straw 40points to the right
     }
     
-    // Bring player and looser label to the front
+    // Bring player label to the front
     [self.view bringSubviewToFront:self.playerLabel];
-    [self.view bringSubviewToFront:self.looserLabel];
     // And display the next (in this case first) player
     [self nextPlayer];
 }
@@ -65,7 +63,6 @@
 - (void)viewDidUnload
 {
     [self setPlayerLabel:nil];
-    [self setLooserLabel:nil];
     [super viewDidUnload];
 }
 
@@ -88,8 +85,6 @@
     [self.view setUserInteractionEnabled:NO];
     
     [self animateStraw:sender andShowNextPlayer:NO];
-    
-    self.looserLabel.hidden = NO;
 }
 
 - (void) animateStraw:(UIButton *)sender andShowNextPlayer:(BOOL)isNextPlayer {

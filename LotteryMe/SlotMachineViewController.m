@@ -41,6 +41,7 @@
 
 - (void)viewDidUnload
 {
+    [self.metalButton.layer removeObserver:self forKeyPath:@"position"];
     [self setMetalButton:nil];
     [super viewDidUnload];
 }

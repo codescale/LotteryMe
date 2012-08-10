@@ -21,6 +21,19 @@
 
 - (int) maxAmoutOfPlayer{return -1;}
 
+- (void)viewDidLoad {
+    UIBarButtonItem *backBtn = [[UIBarButtonItem alloc] 
+                                initWithTitle:@"Home" 
+                                style:UIBarButtonItemStyleDone 
+                                target:self 
+                                action:@selector(pressedBack:)];
+    
+    self.navigationItem.leftBarButtonItem = backBtn;
+}
+- (void) pressedBack:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 - (BOOL) nextPlayer {
     if(self.player.count > self.nextPlayerIndex) {
         self.playerLabel.hidden = NO;

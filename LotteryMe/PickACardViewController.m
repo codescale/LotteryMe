@@ -35,16 +35,22 @@ const char* cardFrontArray[9] = {"PickACard_card_ass_club","PickACard_card_ass_d
     // get a random number to define a random place for the looser card
     int looserCardIndex = arc4random() % self.player.count;
     
+    // 189 = 320 - 5 - 121 - 5
+    // 320 width in total
+    // 5 gap on each side
+    // 121 width of a card
+    float gapBetweenCards = 189 / (float)(self.player.count - 1);
+    
     int frontCardIndex = 0;
     for (int i = 0; i < self.player.count; i++) {
         if(looserCardIndex == i) {
             // add the looser card
-            self.loserPlayCard = [self createNewPlayCard:i*20 
+            self.loserPlayCard = [self createNewPlayCard:i*gapBetweenCards 
                                             withFrontImg:[UIImage imageNamed:@"PickACard_card_loser.png"]];
             [self.view addSubview:self.loserPlayCard];
         } else {
             // add a usual card
-            UIView *view = [self createNewPlayCard:i*20 
+            UIView *view = [self createNewPlayCard:i*gapBetweenCards 
                                       withFrontImg:[UIImage imageNamed:[NSString stringWithUTF8String:cardFrontArray[frontCardIndex]]]];
             [self.view addSubview:view];
             [self.playCards addObject:view];
@@ -54,9 +60,9 @@ const char* cardFrontArray[9] = {"PickACard_card_ass_club","PickACard_card_ass_d
     
     [self nextPlayer];
 }
-- (UIView*)createNewPlayCard:(int) x withFrontImg:(UIImage*)frontImg {
+- (UIView*)createNewPlayCard:(float)x withFrontImg:(UIImage*)frontImg {
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(x + 20, 150, 121, 198)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(x + 5, 150, 121, 198)];
     
     UIImageView *front = [[UIImageView alloc] initWithImage:frontImg];
     [view addSubview:front];
@@ -67,10 +73,6 @@ const char* cardFrontArray[9] = {"PickACard_card_ass_club","PickACard_card_ass_d
     [view addSubview:button];
     
     return view;
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-#warning Let the user go back, choose different player and come back to this view...means we do have to adjust this view with the new amount of player
 }
 
 - (void)viewDidUnload
@@ -112,14 +114,18 @@ const char* cardFrontArray[9] = {"PickACard_card_ass_club","PickACard_card_ass_d
     [UIView setAnimationDuration:1];
     [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:cardBack cache:YES];
     
+    if(cardBack != self.loserPlayCard) {
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDidStopSelector:@selector(flipCardDidStop:finished:context:)];
+    }
+    
     [[[cardBack subviews] objectAtIndex:1] setHidden:YES];
     
     [UIView commitAnimations];
-    
-    if(cardBack != self.loserPlayCard) {
-        [self nextPlayer];
-        [self.view setUserInteractionEnabled:YES];
-    }
+}
+- (void)flipCardDidStop:(NSString *)animationID finished:(BOOL)finished context:(void *)context {
+    [self nextPlayer];
+    [self.view setUserInteractionEnabled:YES];
 }
 
 @end
